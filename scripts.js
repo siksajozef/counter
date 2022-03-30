@@ -1,4 +1,4 @@
-let color="blue";
+/*let color="blue";
 
 $("#first").click
 (
@@ -27,4 +27,27 @@ $('#third').click
     $("button").css("background", color);
 
   }
-)
+)*/
+
+let a=0;
+
+$('#counter').append(
+  a);
+
+$('#button1').click
+(
+  () => 
+  {
+    a++;
+    $('#counter').text(a);
+  }
+);
+
+$('#button2').click
+(
+  () => 
+  {
+    a--;
+    $('#counter').text(a);
+  }
+);

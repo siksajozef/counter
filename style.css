@@ -1,12 +1,12 @@
-#first{
+#button1{
+    background: red;
+}
+
+#button2{
     background: blue;
 }
 
-#second{
-    background: green;
-}
 
-#third{
-    background: lime;
-}
+
+
 
